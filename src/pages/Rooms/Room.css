@@ -1,0 +1,23 @@
+.subpage-wrapper {
+  padding-top: 80px;
+  min-height: 80vh;
+}
+
+.subpage-banner {
+  background: #151619;
+  color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.subpage-banner h1 {
+  font-family: var(--font-serif);
+  font-size: 38px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.subpage-banner p {
+  color: #d5942b;
+  font-size: 15px;
+}

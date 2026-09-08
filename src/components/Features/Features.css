@@ -1,0 +1,110 @@
+.features-floating-wrapper {
+  width: min(1360px, 92%);
+  margin: -60px auto 0;
+  position: relative;
+  z-index: 10;
+}
+
+.features-card-container {
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.09);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.scenario-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px 16px;
+  position: relative;
+  transition: transform 0.25s ease, background-color 0.25s ease;
+  cursor: default;
+}
+
+.scenario-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 20%;
+  height: 60%;
+  width: 1px;
+  background: #ececee;
+}
+
+.scenario-item:hover {
+  background: #fdfaf3;
+  transform: translateY(-2px);
+}
+
+.scenario-icon-box {
+  color: var(--gold-primary);
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease;
+}
+
+.scenario-item:hover .scenario-icon-box {
+  transform: scale(1.1);
+}
+
+.scenario-title {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #2c2f35;
+  line-height: 1.35;
+  margin: 0;
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 1080px) {
+  .features-card-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+  }
+
+  .scenario-item:nth-child(3n)::after {
+    display: none;
+  }
+
+  .scenario-item {
+    border-bottom: 1px solid #ececee;
+  }
+
+  .scenario-item:nth-last-child(-n+3) {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .features-floating-wrapper {
+    margin-top: -30px;
+  }
+
+  .features-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .scenario-item:nth-child(3n)::after {
+    display: block;
+  }
+
+  .scenario-item:nth-child(2n)::after {
+    display: none;
+  }
+
+  .scenario-item {
+    padding: 18px 12px;
+  }
+
+  .scenario-title {
+    font-size: 12px;
+  }
+}
