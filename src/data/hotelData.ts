@@ -163,8 +163,8 @@ export const galleryItems: GalleryItem[] = [
 
 export const contactDetails = {
   address: "Kempty Fall Road, Mussoorie, Uttarakhand, India",
-  phone: "+91 98765 43210",
-  email: "info@kemptyviewhotel.com",
-  whatsappNumber: "919876543210",
+  phone: "+91 9927504825",
+  email: "N/A",
+  whatsappNumber: "9927504825",
   mapCoordinates: "Kempty Falls, Mussoorie, Uttarakhand 248179",
 };

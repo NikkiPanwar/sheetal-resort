@@ -59,7 +59,7 @@ export const Booking: React.FC<BookingProps> = ({ initialSubject = "" }) => {
           <div className="success-icon-badge">✓</div>
           <h4>Thank You for Your Enquiry!</h4>
           <p>
-            Our team at Kempty View Hotel will contact you shortly to confirm
+            Our team at Sheetal Hotel will contact you shortly to confirm
             availability and details.
           </p>
           <button

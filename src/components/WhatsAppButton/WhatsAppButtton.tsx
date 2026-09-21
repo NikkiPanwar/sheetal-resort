@@ -5,7 +5,7 @@ import "./WhatAppButton.css";
 
 export const WhatsAppButton: React.FC = () => {
   const whatsappUrl = `https://wa.me/${contactDetails.whatsappNumber}?text=${encodeURIComponent(
-    "Hello Kempty View Hotel! I would like to inquire about room booking and dining."
+    "Hello Sheetal Hotel! I would like to inquire about room booking and dining."
   )}`;
 
   return (

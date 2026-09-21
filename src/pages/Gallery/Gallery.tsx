@@ -7,7 +7,7 @@ export const GalleryPage: React.FC = () => {
     <div className="subpage-wrapper">
       <div className="subpage-banner">
         <h1>Photo Gallery</h1>
-        <p>A glimpse into life and stays at Kempty View Hotel</p>
+        <p>A glimpse into life and stays at Sheetal Hotel</p>
       </div>
       <GalleryComponent />
     </div>

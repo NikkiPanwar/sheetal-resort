@@ -62,7 +62,7 @@ function Header() {
           href="#home"
           className="hotel-logo-link"
           onClick={(e) => handleNavClick(e, "#home")}
-          aria-label="Kempty View Hotel Home"
+          aria-label="Sheetal Hotel Home"
         >
           <Logo variant="light" size="md" />
         </a>

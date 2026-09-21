@@ -57,7 +57,7 @@ export const Logo: React.FC<LogoProps> = ({ variant = "light", size = "md" }) =>
       </div>
 
       <div className="logo-text-group">
-        <span className="brand-name">KEMPTY VIEW</span>
+        <span className="brand-name">SHEETAL</span>
         <span className="brand-sub">HOTEL &amp; RESTAURANT</span>
       </div>
     </div>

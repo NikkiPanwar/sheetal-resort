@@ -22,7 +22,7 @@ export const Hero: React.FC = () => {
             </h1>
 
             <div className="hero-script-subtitle">
-              Near Kempty Falls
+              In The Heart Of Kempty Falls
             </div>
 
             <p className="hero-description">
